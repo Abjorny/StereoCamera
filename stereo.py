@@ -10,7 +10,7 @@ P1, P2 = data['P1'], data['P2']
 Q = data['Q']
 
 # Инициализация камеры
-cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture(2)
 cap.set(cv2.CAP_PROP_FRAME_WIDTH, 640)
 cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 280)
 

@@ -119,7 +119,7 @@ def onMouse(event, x, y, flag, disparity_normalized):
 
 
 if __name__ == '__main__':
-    cap = cv2.VideoCapture(0)
+    cap = cv2.VideoCapture(2)
     cap.set(cv2.CAP_PROP_FRAME_WIDTH, 640)
     cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 280)
     cv2.namedWindow("Stereo")
