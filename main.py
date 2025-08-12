@@ -1,11 +1,12 @@
 import cv2
 import numpy as np
 
-cap = cv2.VideoCapture(2)
-cap.set(cv2.CAP_PROP_FRAME_WIDTH, 640)
-cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 280)
+cap = cv2.VideoCapture(0)
+cap.set(cv2.CAP_PROP_FRAME_WIDTH, 620)
+cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 240)
 
-stereo = cv2.StereoBM_create(numDisparities=16, blockSize=15)
+
+stereo = cv2.StereoBM_create(numDisparities=96, blockSize=13)
 
 
 
